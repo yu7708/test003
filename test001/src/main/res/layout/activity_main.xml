@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.test001.MainActivity">
+    <Button
+        android:onClick="shiyan001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="冒泡排序"
+        />
+    <Button
+        android:onClick="shiyan002"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="选择排序"
+        />
+    <Button
+        android:onClick="shiyan003"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="插入排序"
+        />
+</LinearLayout>

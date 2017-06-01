@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.myapplication222.MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击有大奖"
+        android:onClick="onClick"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+    <Button
+        android:onClick="shiyan001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="实验001" />
+    <Button
+        android:onClick="shiyan002"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OkImageLoader" />
+    <Button
+        android:onClick="shiyan003"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="垃圾收集" />
+    <Button
+        android:onClick="shiyan004"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="轮播" />
+    <Button
+        android:onClick="shiyan005"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="上拉刷新，下拉加载" />
+</LinearLayout>
+</ScrollView>
